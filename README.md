@@ -9,11 +9,10 @@ Features
 
 Installation
 To install the extension locally for development/testing purposes, follow these steps:
-1. Clone this repository or download the source code as a ZIP file and extract it.
-  git clone https://github.com/yourusername/pierre-papier-ciseaux.git
-2. Open Google Chrome and navigate to chrome://extensions/.
-3. Enable "Developer mode" by toggling the switch in the upper-right corner of the page.
-4. Click on "Load unpacked" and select the directory where the extension's source code is located (the folder containing manifest.json).
+1. Clone this repository or download the source code as a ZIP file and extract it.(git clone https://github.com/yourusername/pierre-papier-ciseaux.git)
+2. Open Google Chrome and navigate to chrome://extensions/
+3. Enable "Developer mode" by toggling the switch in the upper-right corner of the page
+4. Click on "Load unpacked" and select the directory where the extension's source code is located (the folder containing manifest.json)
 
 The extension should now be installed and visible in the Chrome Extensions page, as well as in the browser toolbar.
 
