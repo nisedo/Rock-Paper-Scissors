@@ -1,6 +1,6 @@
 Rock Paper Scissors - Chrome Extension
 
-This repository contains the source code for a simple Chrome extension that allows you to play the classic game of Rock, Paper, Scissors in your browser.
+This repository contains the source code for a simple Chrome extension that allows you to play the classic game of Rock, Paper, Scissors in your browser. I did it as part of the final project for the CS50 course.
 
 Features
 - Simple and easy-to-use interface
