@@ -1,22 +1,22 @@
 function getRandomChoice() {
-  const choices = ["pierre", "papier", "ciseaux"];
+  const choices = ["rock", "paper", "scissors"];
   return choices[Math.floor(Math.random() * choices.length)];
 }
 
 function getResult(playerChoice, computerChoice) {
   if (playerChoice === computerChoice) {
-    return "Égalité !";
+    return "It's a tie!";
   }
 
   if (
-    (playerChoice === "pierre" && computerChoice === "ciseaux") ||
-    (playerChoice === "papier" && computerChoice === "pierre") ||
-    (playerChoice === "ciseaux" && computerChoice === "papier")
+    (playerChoice === "rock" && computerChoice === "scissors") ||
+    (playerChoice === "paper" && computerChoice === "rock") ||
+    (playerChoice === "scissors" && computerChoice === "paper")
   ) {
-    return "Vous gagnez !";
+    return "You won!";
   }
 
-  return "Vous perdez !";
+  return "You lose!";
 }
 
 document.querySelectorAll("button").forEach((button) => {
@@ -25,7 +25,7 @@ document.querySelectorAll("button").forEach((button) => {
     const computerChoice = getRandomChoice();
     const result = getResult(playerChoice, computerChoice);
     document.getElementById(
-      "resultat"
-    ).innerHTML = `<b>${result}</b><br>Vous avez choisi ${playerChoice}, l'ordinateur a choisi ${computerChoice}`;
+      "result"
+    ).innerHTML = `<b>${result}</b><br>You chose ${playerChoice}, the computer chose ${computerChoice}`;
   });
 });
