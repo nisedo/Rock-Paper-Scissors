@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Pierre Papier Ciseaux",
+  "name": "Rock Paper Scissors",
   "version": "1.0",
-  "description": "Jouez à Pierre-papier-ciseaux dans votre navigateur",
+  "description": "Play Rock-Paper-Scissors in your browser!",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
